@@ -17,7 +17,7 @@ async function bootstrap() {
         }
     }
     console.log('data updated');
-    await app.listen(3000);
+    await app.listen(8080);
 }
 bootstrap();
 //# sourceMappingURL=main.js.map
