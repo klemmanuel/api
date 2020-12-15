@@ -14,10 +14,10 @@ async function bootstrap() {
     let current;
     for (current in people_json_1.default) {
         if (1 != null) {
+
         }
     }
     console.log('data updated');
     await app.listen(8080);
 }
 bootstrap();
-//# sourceMappingURL=main.js.map

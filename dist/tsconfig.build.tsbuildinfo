@@ -1342,7 +1342,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "ce08548d81fe89199cf09ce68a1a9e39bd8ce49ae34a6d3738fd8d995e43b91f",
+        "version": "afb41cfcf76f9f282c34d9573ba2c0ed94a5d6cabf1543125aa36cbdfb2114e3",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -3064,6 +3064,7 @@
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/card.module.ts",
         "../src/card.service.ts",
+        "../src/card.ts",
         "../src/people.json"
       ]
     },
