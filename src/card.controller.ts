@@ -37,14 +37,14 @@ export class CardController {
 
   @Get()
   getAllCards( ): Card[]| undefined{
-    if (name) {
-      return this.cardService.getCardsOf(name);
-    }
     return this.cardService.getAllCards();
   }
   @Get('/:name')
   getCardsOf(@Param('name') name): Card[] | any{
-    return this.cardService.getCardsOf(name);
+    if (name) {
+      return this.cardService.getCardsOf(name);
+    }
+    return this.cardService.getAllCards();
   }
 
   @Post()
