@@ -6,7 +6,6 @@ import data from './people.json'
 export class CardService {
     private readonly cardRepository: Map<string, Card> = new Map();
     constructor() {
-
         data.forEach(current =>{
             const card : Card = {
                 name: current.name ,
@@ -23,6 +22,7 @@ export class CardService {
                 lien_wikipedia: current.lien_wikipedia ,
                 resume:current.resume ,
             }
+
             this.cardRepository.set(current.name,current)
 
         })
