@@ -14,10 +14,28 @@ async function bootstrap() {
     let current;
     for (current in people_json_1.default) {
         if (1 != null) {
-
+            people_json_1.default.forEach(current => {
+                const card = {
+                    name: current.name,
+                    job: current.job,
+                    description: current.description,
+                    favori: current.favori,
+                    date_deces: current.date_deces,
+                    date_deces_precision: current.date_deces_precision,
+                    date_naissance: current.date_naissance,
+                    date_naissance_precision: current.date_naissance_precision,
+                    id: current.id,
+                    lien_categorie_wikimedia_commons: current.lien_categorie_wikimedia_commons,
+                    lien_wikidata: current.lien_wikidata,
+                    lien_wikipedia: current.lien_wikipedia,
+                    resume: current.resume,
+                };
+                this.cardRepository.set(current.name, current);
+            });
         }
     }
     console.log('data updated');
     await app.listen(8080);
 }
 bootstrap();
+//# sourceMappingURL=main.js.map
