@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead515"
   },
-  "favori": true,
+  "favori": false,
   "job": "philosophe français",
   "description": "Alain (philosophe)",
   "date_deces": "1951-06-02",
@@ -19,7 +19,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead516"
   },
-  "favori": true,
+  "favori": false,
   "job": "chanteur français",
   "description": "Frank Alamo",
   "date_deces": "2012-10-11",
@@ -36,7 +36,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead517"
   },
-  "favori": true,
+  "favori": false,
   "job": "ingénieur des ponts et chaussées français",
   "description": "Jean-Charles Alphand",
   "date_deces": "1891-12-06",
@@ -53,7 +53,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead518"
   },
-  "favori": true,
+  "favori": false,
   "job": "homme politique",
   "description": " \"Antoine Balthazar Joseph d'André\" ",
   "date_deces": "1825-07-16",
@@ -70,7 +70,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead519"
   },
-  "favori": true,
+  "favori": false,
   "job": "ministre français",
   "description": "Vincent Ansquer",
   "date_deces": "1987-05-31",
@@ -87,7 +87,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead51a"
   },
-  "favori": true,
+  "favori": false,
   "job": "poète français",
   "description": "Guillaume Apollinaire",
   "date_deces": "1918-11-09",
@@ -104,7 +104,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead51b"
   },
-  "favori": true,
+  "favori": false,
   "job": "peintre et sculpteur néerlandais, cofondateur du groupe CoBrA",
   "description": "Karel Appel",
   "date_deces": "2006-05-03",
@@ -121,7 +121,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead51c"
   },
-  "favori": true,
+  "favori": false,
   "job": "mathématicien, physicien, astronamee et politicien français",
   "description": "François Arago",
   "date_deces": "1853-10-02",
@@ -138,7 +138,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead51d"
   },
-  "favori": true,
+  "favori": false,
   "job": "militaire français, compagnon de la Libération",
   "description": " \"François d'Astier de La Vigerie\" ",
   "date_deces": "1956-10-09",
@@ -155,7 +155,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead51e"
   },
-  "favori": true,
+  "favori": false,
   "job": "poète, écrivain et diplomate guatémaltèque",
   "description": "Miguel Ángel Asturias",
   "date_deces": "1974-06-09",
@@ -172,7 +172,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead51f"
   },
-  "favori": true,
+  "favori": false,
   "job": "compositeur français",
   "description": "Tony Aubin",
   "date_deces": "1981-09-21",
@@ -189,7 +189,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead520"
   },
-  "favori": true,
+  "favori": false,
   "job": "écrivain français",
   "description": "Honoré de Balzac",
   "date_deces": "1850-08-18",
@@ -206,7 +206,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead521"
   },
-  "favori": true,
+  "favori": false,
   "job": "écrivain français",
   "description": "Henri Barbusse",
   "date_deces": "1935-08-30",
@@ -223,7 +223,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead522"
   },
-  "favori": true,
+  "favori": false,
   "job": "politicien français",
   "description": "Paul Barras",
   "date_deces": "1829-01-29",
@@ -240,7 +240,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead523"
   },
-  "favori": true,
+  "favori": false,
   "job": "chanteur français",
   "description": "Alain Bashung",
   "date_deces": "2009-03-14",
@@ -257,7 +257,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead524"
   },
-  "favori": true,
+  "favori": false,
   "job": " \"médecin accoucheur et professeur d'obstétrique français\"",
   "description": "Jean-Louis Baudelocque",
   "date_deces": "1810-05-02",
@@ -274,7 +274,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead525"
   },
-  "favori": true,
+  "favori": false,
   "job": "peintre français",
   "description": "Jean-Adolphe Beaucé",
   "date_deces": "1875-07-13",
@@ -291,7 +291,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead526"
   },
-  "favori": true,
+  "favori": false,
   "job": "diplomate, homme politique et historien français.",
   "description": "Félix de Beaujour",
   "date_deces": "1836-07-01",
@@ -308,7 +308,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead527"
   },
-  "favori": true,
+  "favori": false,
   "job": "compositeur italien",
   "description": "Vincenzo Bellini",
   "date_deces": "1835-09-23",
@@ -325,7 +325,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead528"
   },
-  "favori": true,
+  "favori": false,
   "job": "médecin et physiologiste français",
   "description": "Claude Bernard",
   "date_deces": "1878-02-10",
@@ -342,7 +342,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead529"
   },
-  "favori": true,
+  "favori": false,
   "job": "écrivain et botaniste français",
   "description": "Jacques-Henri Bernardin de Saint-Pierre",
   "date_deces": "1814-01-21",
@@ -359,7 +359,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead52a"
   },
-  "favori": true,
+  "favori": false,
   "job": "comédienne française",
   "description": "Sarah Bernhardt",
   "date_deces": "1923-03-26",
@@ -376,7 +376,7 @@
   "_id": {
     "$oid": "5fd4d102baad0fbb52ead52b"
   },
-  "favori": true,
+  "favori": false,
   "job": "médecin français",
   "description": "Julien Bessières",
   "date_deces": "1840-07-31",
