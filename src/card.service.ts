@@ -31,6 +31,6 @@ export class CardService implements OnModuleInit {
 
   async update(name: string, card: Card): Promise<Card> {
     this.cardRepository.set(name.toLowerCase(), card);
-    return this.cardRepository.get(name);
+    return this.cardRepository.get(name.toLowerCase());
   }
 }
