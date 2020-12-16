@@ -18,7 +18,7 @@ export class CardService implements OnModuleInit {
   }
 
   deleteCard(name: string): void {
-    this.cardRepository.delete(name);
+    this.cardRepository.delete(name.toLowerCase());
   }
 
   getCardByName(name: string): Card | null {
@@ -30,7 +30,7 @@ export class CardService implements OnModuleInit {
   }
 
   async update(name: string, card: Card): Promise<Card> {
-    this.cardRepository.set(name, card);
-    return this.cardRepository.get(name);
+    this.cardRepository.set(name.toLowerCase(), card);
+    return this.cardRepository.get(name.toLowerCase());
   }
 }
