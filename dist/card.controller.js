@@ -42,13 +42,13 @@ let CardController = class CardController {
         });
     }
     getAllCards() {
+        return this.cardService.getAllCards();
+    }
+    getCardsOf(name) {
         if (name) {
             return this.cardService.getCardsOf(name);
         }
         return this.cardService.getAllCards();
-    }
-    getCardsOf(name) {
-        return this.cardService.getCardsOf(name);
     }
     createCard(newCard) {
         this.cardService.addCard(newCard);
@@ -85,7 +85,7 @@ __decorate([
 ], CardController.prototype, "createCard", null);
 __decorate([
     common_1.Put('/:name'),
-    __param(0, common_1.Param('name')),
+    __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)

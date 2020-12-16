@@ -6,7 +6,7 @@ export declare class CardController {
     getAllCards(): Card[] | undefined;
     getCardsOf(name: any): Card[] | any;
     createCard(newCard: Card): void;
-    Favorite(card: any): void;
+    Favorite(card: Card): void;
     getFavorite(name: any): Card[] | any;
     deleteBook(title: any): void;
 }

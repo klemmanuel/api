@@ -53,7 +53,7 @@ export class CardController {
   }
 
   @Put('/:name')
-  Favorite(@Param('name') card):void {
+  Favorite(@Body()card: Card):void {
     this.cardService.addFavorite(name)
   }
 
